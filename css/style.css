@@ -17,33 +17,18 @@ body .container {
   border: .5px black;
 }
 
+nav {
+  padding: 10px 0 15px 15px;
+  position: relative;
+  width: 400px;
+  background-color: black;
+}
 
 .arrow-left i {
+  border: .5px solid black;
   width: 120px;
-  color: black;
-  border: .5px black;
+  color: white;
 }
-
-nav {
-  margin: 0 auto;
-  padding: 10px 0 15px 15px;
-  position: fixed;
-  width: 420px;
-}
-
-nav .arrow-left {
-  list-style: none;
-  overflow: hidden;
-
-}
-/*.restaurant-list {
-  padding-top: 50px;
-  margin: 10px;
-  border: 5px solid;
-  padding: 50px;
-  width: 400px;
-  background: gray;
-} */
 
 .location {
   margin: 0;
@@ -54,13 +39,12 @@ nav .arrow-left {
 }
 
 .content, .arrow {
-  display: block;
+  display: inline-block;
   padding: 8px 16px;
   color: #000;
   text-decoration: none;
 
 }
-
 
 .arrow {
   float: right;
@@ -68,9 +52,10 @@ nav .arrow-left {
 }
 
 h1 {
-  font-weight: 100px;
+  font-weight: 400px;
   font-size: 16px;
   font-family: sans-serif;
+  padding-bottom: 2px;
 }
 
 h3 {
@@ -81,5 +66,4 @@ h3 {
 .section {
   float: left;
   margin: 5px 1% 0 1%;
-
 }
